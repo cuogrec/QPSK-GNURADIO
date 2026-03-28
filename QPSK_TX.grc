@@ -1,6 +1,6 @@
 options:
   parameters:
-    author: Barry Duggan
+    author: CUONG NGUYEN
     catch_exceptions: 'True'
     category: '[GRC Hier Blocks]'
     cmake_opt: ''
