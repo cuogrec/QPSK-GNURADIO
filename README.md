@@ -12,7 +12,7 @@ sudo sysctl -w net.core.wmem_max=2500000
 
 sudo sysctl -w net.core.rmem_max=2500000
 
-4. Chuẩn bị Dữ liệu Truyền 
+3. Chuẩn bị Dữ liệu Truyền 
 
 -Hệ thống sử dụng kích thước gói (Packet Length) là 252 bytes. Mọi file trước khi đưa vào GNU Radio đều phải đi qua script đệm Padded_File_Source.py (sử dụng byte rỗng \x00 để đệm đuôi).
 
@@ -40,7 +40,7 @@ c.Truyền video (bắt buộc dùng định dạng mpeg-ts)
 
 <img width="1732" height="874" alt="image" src="https://github.com/user-attachments/assets/a4f22d3e-587f-4152-998b-0a8e7c18606c" />
 
-5. Quy trình Vận hành
+4. Quy trình Vận hành
 -Khởi động thiết bị: Bật nguồn 2 con USRP, đợi đèn mạng sáng xanh ổn định.
 
 -Cấu hình nguồn/đích:
