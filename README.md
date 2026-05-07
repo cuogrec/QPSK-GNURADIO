@@ -53,7 +53,8 @@ c.Truyền video (bắt buộc dùng định dạng mpeg-ts)
 
 -Bật lưu đồ Thu (RX) trước.
 
-<img width="1944" height="899" alt="image" src="https://github.com/user-attachments/assets/f5f9acb3-7484-47d4-9bd1-e80d14aa773d" />
+<img width="1590" height="670" alt="image" src="https://github.com/user-attachments/assets/ea78ef03-2723-467f-b0e3-fcfe702a996b" />
+
 
 -Bật lưu đồ Phát (TX) sau.
 <img width="1962" height="911" alt="image" src="https://github.com/user-attachments/assets/7ec70e70-a351-4936-ae7e-3b05408de459" />
