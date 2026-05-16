@@ -29,7 +29,7 @@ Hệ thống mô phỏng quy trình truyền hình số thực tế (End-to-End 
 
 ### 2.1. Lệnh Đóng Gói (Chạy tại Máy Phát)
 ```bash
-ffmpeg -i 'theboys2.mp4' -vf scale=640:480 -r 24 -vcodec libx264 -b:v 250k -maxrate 250k -bufsize 500k -c:a aac -b:a 48k -g 24 -f mpegts 'video_project.ts'
+ffmpeg -i '/home/cuong/Desktop/New Folder/theboys2.mp4'  -vf scale=640:480 -r 24 -vcodec libx264 -b:v 200k -maxrate 200k -bufsize 400k -c:a aac -b:a 48k -g 24 -f mpegts '/home/cuong/Desktop/New Folder/video_ts.ts'
 ```
 ### 2.2. Khởi động máy thu
 
