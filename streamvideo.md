@@ -23,9 +23,21 @@ Hệ thống mô phỏng quy trình truyền hình số thực tế (End-to-End 
 
 Để phần cứng USRP hoạt động ổn định (không báo lỗi Underrun `U` hoặc Overrun `O` hay bị tràn buffer), băng thông video được thiết kế ở mức cận biên an toàn so với sức tải tối đa của hệ thống vô tuyến (khoảng 360Kbps đối với hệ thống QPSK 375Kbps).
 
-* **Video:** Độ phân giải 640x480 (480p), Tốc độ 24 FPS, Bitrate 250 Kbps.
-* **Audio:** Chuẩn nén AAC, Bitrate 48 Kbps.
-* **Tổng băng thông lý thuyết:** ~298 Kbps.
+* **Video:**
+Độ phân giải (Resolution): 640x480 (Chuẩn SD/480p)
+
+Tốc độ khung hình (FPS): 24 khung hình/giây
+
+Chuẩn nén (Codec): H.264 (thông qua thư viện libx264)
+
+Tốc độ Bit trung bình (Video Bitrate): 200 Kbps
+
+Khoảng cách khung hình gốc (GOP Size): 24 (1 giây/I-frame)
+* **Audio:**
+Chuẩn nén (Codec): AAC (Advanced Audio Coding)
+
+Tốc độ Bit (Audio Bitrate): 48 Kbps
+* **Tổng băng thông lý thuyết:** 272.8 Kbps
 
 ### 2.1. Lệnh Đóng Gói (Chạy tại Máy Phát)
 ```bash
