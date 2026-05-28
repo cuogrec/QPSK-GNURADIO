@@ -1,7 +1,9 @@
 # Hệ Thống Truyền Hình Video Thời Gian Thực Qua Vô Tuyến (SDR Broadcasting System)
 
 **Người thực hiện:** Nguyễn Phú Cường
+
 **Thiết bị:** 02 máy tính Linux (Ubuntu), phần cứng USRP
+
 **Công cụ phần mềm:** FFmpeg, GNU Radio
 
 ---
