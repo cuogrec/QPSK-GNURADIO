@@ -57,7 +57,7 @@ Chạy sơ đồ QPSK_TX_FAKE.grc
 <img width="1969" height="823" alt="image" src="https://github.com/user-attachments/assets/2385e9d2-c895-4341-889b-a7c2a5c3837a" />
 
 ### 3. Phân tích hiện tượng kỹ thuật 
-Hiện tượng: Tiến trình phát trên GNU Radio kết thúc (thanh tiến trình đạt 100%) nhưng video tại trạm thu vẫn tiếp tục phát mượt mà cho đến hết.
+Hiện tượng: Tiến trình phát trên GNU Radio kết thúc nhưng video tại trạm thu vẫn tiếp tục phát mượt mà cho đến hết.
 
 Giải thích:
 Hệ thống đạt được trạng thái tối ưu hóa bộ đệm (Perfect Buffering) nhờ 2 yếu tố:
